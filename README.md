@@ -1,2 +1,2 @@
-# Bytebank
+# SmartBank
 Alura
