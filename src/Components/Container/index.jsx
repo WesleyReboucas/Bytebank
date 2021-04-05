@@ -1,17 +1,34 @@
 import React from "react";
+import styled from "styled-components";
 
-import Titulo from "../Titulo";
-import Conta from "../Conta";
+import Title from "../Title";
+import Account from "../Account";
+import Statement from "../../Components/Statement";
 
-const Container = () => {
+const Container = styled.div`
+  background-color: ${({ theme }) => theme.body};
+  min-height: 90vh;
+  padding: 0px 15vw;
+`;
+const Contents = styled.section`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: ${({ theme }) => theme.text};
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
+`;
+
+export default () => {
   return (
-    <div className="container">
-      <Titulo>Olá Fulano!</Titulo>
-      <section className="conteudo">
-        <Conta />
-      </section>
-    </div>
+    <Container className="container">
+      <Title>Olá Wesley!</Title>
+      <Contents className="contents">
+        <Account />
+        <Statement />
+      </Contents>
+    </Container>
   );
 };
-
-export default Container;
