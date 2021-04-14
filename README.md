@@ -1,9 +1,7 @@
-<!-- 
+
 <div >
   <img src=".github/05.png" width="1000px">
 </div>
--->
-<h1 align="center"> Smart Bank </h1>
 
 <p align="center">
 	<a href="https://www.linkedin.com/in/wesley-andrade/">	
@@ -38,20 +36,13 @@ Assuntos abordados:
 
 
 ## Layout
-<!-- 
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
 	<img src=".github/00.png" width="900px">			
 </div>
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
 	<img src=".github/01.png" width="900px">		
 </div>
-<div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-	<img src=".github/02.png" width="900px">		
-</div>
-<div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-	<img src=".github/04.png" width="900px">		
-</div>
--->
+
 
 ## Tecnologias
 
@@ -80,14 +71,10 @@ $ yarn start
 
 
 ## :bookmark_tabs: Certificados 
-<!-- 
-<a href="https://cursos.alura.com.br/certificate/010c6926-3bd3-46bc-bebe-fac55704b859">
+
+<a href="https://cursos.alura.com.br/certificate/6039993e-f32c-45ef-9069-e919e070128a">
 	<img src="https://img.shields.io/static/v1?label=Alura&message=2021&color=199ffc&style=flat"/>
 </a>
-<a href="https://cursos.alura.com.br/certificate/e9d11929-1a2b-4580-bc11-5aed8ab65949">
-	<img src="https://img.shields.io/static/v1?label=Alura&message=2021&color=199ffc&style=flat"/>
-</a>
--->
 
 
 ## :page_with_curl: Licencia 
