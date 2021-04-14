@@ -11,8 +11,8 @@ const BtnHeader = styled.a`
   font-weight: 600;
   border: 2px solid white;
 
-  background: ${(porps) => (porps.primary ? "white" : primaryColor)};
-  color: ${(porps) => (porps.primary ? primaryColor : "white")};
+  background: ${(props) => (props.primary ? "white" : primaryColor)};
+  color: ${(props) => (props.primary ? primaryColor : "white")};
 `;
 
 const StyledHeader = styled.nav`
